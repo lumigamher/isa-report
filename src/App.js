@@ -234,7 +234,7 @@ const ChatbotReport = () => {
                 />
             </div>
             
-            <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión ChatBot</h1>
+            <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión ChatBot 24 al 27 Diciembre</h1>
             
             <div className="bg-white p-4 rounded-lg shadow mb-8">
                 <h2 className="text-xl font-semibold mb-2">Costo Global por Usuario Registrado</h2>
