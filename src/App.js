@@ -29,14 +29,14 @@ const BUCARAMANGA_DATA = {
     },
     {
       date: "2024-12-27",
-      uniqueUsers: 1,
+      uniqueUsers: 2,
       registeredUsers: 0,
       conversionRate: 0
     }
   ],
-  totalUsers: 9,
+  totalUsers: 10,
   registeredUsers: 3,
-  conversionRate: 33.33,
+  conversionRate: 30,
   userList: [
       {
           userId: 886,
@@ -127,6 +127,16 @@ const BUCARAMANGA_DATA = {
           isRegistered: false,
           age: "-",
           availability: "-"
+      },
+      {
+          userId: 935,
+          username: "Miguel Castellanos",
+          phone: "3104037124",
+          messageCount: 2,
+          firstMessage: "2024-12-27",
+          isRegistered: false,
+          age: "16",
+          availability: "Si"
       }
   ]
 };
@@ -168,11 +178,17 @@ const BOGOTA_DATA = {
         uniqueUsers: 1,
         registeredUsers: 0,
         conversionRate: 0
+      },
+      {
+        date: "2024-12-23 ",
+        uniqueUsers: 1,
+        registeredUsers: 0,
+        conversionRate: 0
       }
     ],
     totalUsers: 9,
     registeredUsers: 3,
-    conversionRate: 33.3,
+    conversionRate: 33.33,
     userList: [
       {
         userId: 266,
