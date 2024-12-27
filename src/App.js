@@ -195,7 +195,7 @@ const BOGOTA_DATA = {
         username: "Santiago caicedo barreto",
         phone: "3123313079",
         messageCount: 2,
-        isRegistered: false
+        isRegistered: true
       },
       {
         userId: 289,
