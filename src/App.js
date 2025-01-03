@@ -344,7 +344,7 @@ const ChatbotReport = () => {
               <img 
                   src="/logocampus.png" 
                   alt="Logo" 
-                  className="h-24 object-contain"
+                  className="h-48 object-contain"
               />
           </div>
           
