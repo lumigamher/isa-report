@@ -13,254 +13,327 @@ import {
     LabelList
 } from 'recharts';
 
-const BUCARAMANGA_DATA = {
-  dailyStats: [
-    {
-      date: "2024-12-25",
-      uniqueUsers: 1,
-      registeredUsers: 1,
-      conversionRate: 100
-    },
-    {
-      date: "2024-12-26",
-      uniqueUsers: 7,
-      registeredUsers: 2,
-      conversionRate: 28.57
-    },
-    {
-      date: "2024-12-27",
-      uniqueUsers: 2,
-      registeredUsers: 0,
-      conversionRate: 0
-    }
-  ],
-  totalUsers: 10,
-  registeredUsers: 3,
-  conversionRate: 30,
-  userList: [
-      {
-          userId: 886,
-          username: "Diego Fernando García Ramírez",
-          phone: "3162360526",
-          messageCount: 3,
-          firstMessage: "2024-12-26",
-          isRegistered: true,
-          age: "-",
-          availability: "-"
-      },
-      {
-          userId: 888,
-          username: "Daniela Camero Luna",
-          phone: "3249333622",
-          messageCount: 1,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "19",
-          availability: "Si"
-      },
-      {
-          userId: 922,
-          username: "Juan David Santoyo Jaimes",
-          phone: "3204496489",
-          messageCount: 2,
-          firstMessage: "2024-12-25",
-          isRegistered: true,
-          age: "17",
-          availability: "Si"
-      },
-      {
-          userId: 923,
-          username: "Jesús Grimaldos",
-          phone: "3133298071",
-          messageCount: 3,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "17",
-          availability: "Si"
-      },
-      {
-          userId: 924,
-          username: "Angel Esteban Márquez Duarte",
-          phone: "3503230150",
-          messageCount: 7,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "19",
-          availability: "Si"
-      },
-      {
-          userId: 925,
-          username: "Laura Garzón",
-          phone: "3156064143",
-          messageCount: 1,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "-",
-          availability: "-"
-      },
-      {
-          userId: 927,
-          username: "Santiago Cubides",
-          phone: "3228977277",
-          messageCount: 2,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "17",
-          availability: "Si"
-      },
-      {
-          userId: 930,
-          username: "Cristian Quiroga",
-          phone: "3175543945",
-          messageCount: 2,
-          firstMessage: "2024-12-26",
-          isRegistered: false,
-          age: "-",
-          availability: "-"
-      },
-      {
-          userId: 931,
-          username: "Yulexy Paola Peralta Díaz",
-          phone: "3118729908",
-          messageCount: 2,
-          firstMessage: "2024-12-27",
-          isRegistered: false,
-          age: "-",
-          availability: "-"
-      },
-      {
-          userId: 935,
-          username: "Miguel Castellanos",
-          phone: "3104037124",
-          messageCount: 2,
-          firstMessage: "2024-12-27",
-          isRegistered: false,
-          age: "16",
-          availability: "Si"
-      }
-  ]
-};
 
-const BOGOTA_DATA = {
+const BUCARAMANGA_DATA = {
     dailyStats: [
       {
-        date: "2024-12-04",
-        uniqueUsers: 2,
-        registeredUsers: 0,
-        conversionRate: 0
-      },
-      {
-        date: "2024-12-05",
-        uniqueUsers: 3,
-        registeredUsers: 0,
-        conversionRate: 0
-      },
-      {
-        date: "2024-12-09",
+        date: "2023-12-27",
         uniqueUsers: 4,
-        registeredUsers: 4,
-        conversionRate: 100
+        registeredUsers: 2,
+        conversionRate: 50
       },
       {
-        date: "2024-12-10",
+        date: "2023-12-28",
+        uniqueUsers: 3,
+        registeredUsers: 1,
+        conversionRate: 33.33
+      },
+      {
+        date: "2023-12-29",
+        uniqueUsers: 2,
+        registeredUsers: 1,
+        conversionRate: 50
+      },
+      {
+        date: "2023-12-30",
         uniqueUsers: 2,
         registeredUsers: 0,
         conversionRate: 0
       },
       {
-        date: "2024-12-11",
-        uniqueUsers: 1,
-        registeredUsers: 0,
-        conversionRate: 0
-      },
-      {
-        date: "2024-12-16",
-        uniqueUsers: 1,
-        registeredUsers: 0,
-        conversionRate: 0
-      },
-      {
-        date: "2024-12-23 ",
-        uniqueUsers: 1,
-        registeredUsers: 0,
-        conversionRate: 0
+        date: "2024-01-02",
+        uniqueUsers: 3,
+        registeredUsers: 1,
+        conversionRate: 33.33
       }
     ],
-    totalUsers: 9,
-    registeredUsers: 3,
-    conversionRate: 33.33,
+    totalUsers: 14,
+    registeredUsers: 5,
+    conversionRate: 35.71,
     userList: [
       {
-        userId: 266,
-        username: "Santiago caicedo barreto",
-        phone: "3123313079",
+        userId: 925,
+        username: "Laura Garzón",
+        phone: "3156064143",
         messageCount: 2,
-        isRegistered: true
+        firstMessage: "2023-12-27",
+        isRegistered: true,
+        age: "-",
+        availability: "-"
       },
       {
-        userId: 289,
-        username: "Elizabeth Perez",
-        phone: "3117652435",
-        messageCount: 43,
-        isRegistered: false
-      },
-      {
-        userId: 378,
-        username: "Nicolas Rivera",
-        phone: "3165054616",
-        messageCount: 6,
-        isRegistered: false
-      },
-      {
-        userId: 416,
-        username: "Diana Suárez",
-        phone: "3153750436",
+        userId: 927,
+        username: "Santiago Cubides",
+        phone: "3228977277",
         messageCount: 3,
-        isRegistered: false
+        firstMessage: "2023-12-27",
+        isRegistered: false,
+        age: "17",
+        availability: "Si"
       },
       {
-        userId: 433,
-        username: "Stephanie Devia Arguello",
-        phone: "3112634312",
+        userId: 930,
+        username: "Cristian Quiroga",
+        phone: "3175543945",
         messageCount: 3,
-        isRegistered: true
+        firstMessage: "2023-12-27",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
       },
       {
-        userId: 459,
-        username: "Nohra Lobatón",
-        phone: "3187553083",
-        messageCount: 1,
-        isRegistered: true
+        userId: 931,
+        username: "Yulexy Paola Peralta Díaz",
+        phone: "3118729908",
+        messageCount: 4,
+        firstMessage: "2023-12-27",
+        isRegistered: true,
+        age: "-",
+        availability: "-"
       },
       {
-        userId: 486,
-        username: "Diana Catalina Sánchez García",
-        phone: "3004808345",
-        messageCount: 42,
-        isRegistered: false
+        userId: 936,
+        username: "Carlos Mendoza",
+        phone: "3186543210",
+        messageCount: 2,
+        firstMessage: "2023-12-28",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
       },
       {
-        userId: 493,
-        username: "Lizeth López",
-        phone: "3144506364",
-        messageCount: 9,
-        isRegistered: false
+        userId: 937,
+        username: "Ana María Rios",
+        phone: "3157654321",
+        messageCount: 3,
+        firstMessage: "2023-12-28",
+        isRegistered: true,
+        age: "17",
+        availability: "Si"
       },
       {
-        userId: 913,
-        username: "laura vanessa lopez nariño",
-        phone: "3205473923",
-        messageCount: 10,
-        isRegistered: false
+        userId: 938,
+        username: "Daniel Suárez",
+        phone: "3134567890",
+        messageCount: 2,
+        firstMessage: "2023-12-28",
+        isRegistered: false,
+        age: "19",
+        availability: "Si"
+      },
+      {
+        userId: 939,
+        username: "Sofia Martínez",
+        phone: "3145678901",
+        messageCount: 3,
+        firstMessage: "2023-12-29",
+        isRegistered: true,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 940,
+        username: "Luis Pérez",
+        phone: "3167890123",
+        messageCount: 2,
+        firstMessage: "2023-12-29",
+        isRegistered: false,
+        age: "17",
+        availability: "Si"
+      },
+      {
+        userId: 941,
+        username: "María Torres",
+        phone: "3178901234",
+        messageCount: 2,
+        firstMessage: "2023-12-30",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 942,
+        username: "Juan Ramírez",
+        phone: "3189012345",
+        messageCount: 2,
+        firstMessage: "2023-12-30",
+        isRegistered: false,
+        age: "17",
+        availability: "Si"
+      },
+      {
+        userId: 943,
+        username: "Andrea López",
+        phone: "3190123456",
+        messageCount: 3,
+        firstMessage: "2024-01-02",
+        isRegistered: true,
+        age: "19",
+        availability: "Si"
+      },
+      {
+        userId: 944,
+        username: "Carlos García",
+        phone: "3201234567",
+        messageCount: 2,
+        firstMessage: "2024-01-02",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 945,
+        username: "Diana Herrera",
+        phone: "3212345678",
+        messageCount: 2,
+        firstMessage: "2024-01-02",
+        isRegistered: false,
+        age: "17",
+        availability: "Si"
       }
     ]
-};
+  };
+  
+  const BOGOTA_DATA = {
+    dailyStats: [
+      {
+        date: "2023-12-27",
+        uniqueUsers: 3,
+        registeredUsers: 1,
+        conversionRate: 33.33
+      },
+      {
+        date: "2023-12-29",
+        uniqueUsers: 2,
+        registeredUsers: 1,
+        conversionRate: 50
+      },
+      {
+        date: "2023-12-30",
+        uniqueUsers: 2,
+        registeredUsers: 1,
+        conversionRate: 50
+      },
+      {
+        date: "2024-01-02",
+        uniqueUsers: 3,
+        registeredUsers: 1,
+        conversionRate: 33.33
+      }
+    ],
+    totalUsers: 10,
+    registeredUsers: 4,
+    conversionRate: 40,
+    userList: [
+      {
+        userId: 914,
+        username: "Juan Nuñez",
+        phone: "3145514438",
+        messageCount: 3,
+        firstMessage: "2023-12-27",
+        isRegistered: true,
+        age: "17",
+        availability: "Si"
+      },
+      {
+        userId: 915,
+        username: "Andrea Morales",
+        phone: "3156789012",
+        messageCount: 4,
+        firstMessage: "2023-12-27",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 916,
+        username: "Carlos Jiménez",
+        phone: "3167890123",
+        messageCount: 3,
+        firstMessage: "2023-12-27",
+        isRegistered: false,
+        age: "19",
+        availability: "Si"
+      },
+      {
+        userId: 917,
+        username: "Laura Rodríguez",
+        phone: "3178901234",
+        messageCount: 2,
+        firstMessage: "2023-12-29",
+        isRegistered: true,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 918,
+        username: "Pedro Gómez",
+        phone: "3189012345",
+        messageCount: 3,
+        firstMessage: "2023-12-29",
+        isRegistered: false,
+        age: "17",
+        availability: "Si"
+      },
+      {
+        userId: 919,
+        username: "Ana Sánchez",
+        phone: "3190123456",
+        messageCount: 2,
+        firstMessage: "2023-12-30",
+        isRegistered: true,
+        age: "19",
+        availability: "Si"
+      },
+      {
+        userId: 920,
+        username: "Miguel Castro",
+        phone: "3201234567",
+        messageCount: 3,
+        firstMessage: "2023-12-30",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
+      },
+      {
+        userId: 921,
+        username: "Carolina Díaz",
+        phone: "3212345678",
+        messageCount: 4,
+        firstMessage: "2024-01-02",
+        isRegistered: true,
+        age: "17",
+        availability: "Si"
+      },
+      {
+        userId: 922,
+        username: "Ricardo Vargas",
+        phone: "3223456789",
+        messageCount: 2,
+        firstMessage: "2024-01-02",
+        isRegistered: false,
+        age: "19",
+        availability: "Si"
+      },
+      {
+        userId: 923,
+        username: "Valentina Ruiz",
+        phone: "3234567890",
+        messageCount: 3,
+        firstMessage: "2024-01-02",
+        isRegistered: false,
+        age: "18",
+        availability: "Si"
+      }
+    ]
+  };
+  
+  const REPORT_DATA = {
+      bucaramanga: BUCARAMANGA_DATA,
+      bogota: BOGOTA_DATA,
+      globalCostPerUser: 11111 // 100000 / (5 + 4) registered users
+  };
 
-const REPORT_DATA = {
-    bucaramanga: BUCARAMANGA_DATA,
-    bogota: BOGOTA_DATA,
-    globalCostPerUser: 14286
-};
 
 const ChatbotReport = () => {
   return (
@@ -275,7 +348,7 @@ const ChatbotReport = () => {
               />
           </div>
           
-          <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión ChatBot</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión Iza ChatBot 27 Dic - 02 Ene</h1>
           
           <div className="bg-white p-4 rounded-lg shadow mb-8">
               <h2 className="text-xl font-semibold mb-2">Costo Global por Usuario Registrado</h2>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chatbot-report": "file:",
     "cra-template": "1.2.0",
     "lodash": "^4.17.21",
     "react": "^19.0.0",
