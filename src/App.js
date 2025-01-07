@@ -45,11 +45,47 @@ const BUCARAMANGA_DATA = {
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
+      },
+      {
+        date: "2025-01-02",
+        uniqueUsers: 6,
+        registeredUsers: 2,
+        conversionRate: 33.33
+      },
+      {
+          date: "2025-01-03",
+          uniqueUsers: 7,
+          registeredUsers: 0,
+          conversionRate: 0
+      },
+      {
+          date: "2025-01-04",
+          uniqueUsers: 9,
+          registeredUsers: 0,
+          conversionRate: 0
+      },
+      {
+          date: "2025-01-05",
+          uniqueUsers: 2,
+          registeredUsers: 1,
+          conversionRate: 50
+      },
+      {
+          date: "2025-01-06",
+          uniqueUsers: 3,
+          registeredUsers: 1,
+          conversionRate: 33.33
+      },
+      {
+          date: "2025-01-07",
+          uniqueUsers: 1,
+          registeredUsers: 0,
+          conversionRate: 0
       }
     ],
-    totalUsers: 14,
-    registeredUsers: 5,
-    conversionRate: 35.71,
+    totalUsers: 40,
+    registeredUsers: 9,
+    conversionRate: 22.50,
     userList: [
       {
         userId: 925,
@@ -190,7 +226,267 @@ const BUCARAMANGA_DATA = {
         isRegistered: false,
         age: "17",
         availability: "Si"
-      }
+      },
+      {
+        userId: 482,
+        username: "Michell Quintero",
+        phone: "3124561578",
+        messageCount: 3,
+        firstMessage: "2025-01-04",
+        isRegistered: true,
+        age: 23,
+        availability: "si"
+    },
+    {
+        userId: 886,
+        username: "Diego Fernando García Ramírez",
+        phone: "3162360526",
+        messageCount: 3,
+        firstMessage: "2025-01-02",
+        isRegistered: true,
+        age: 18,
+        availability: "si"
+    },
+    {
+        userId: 888,
+        username: "Daniela Camero Luna",
+        phone: "3249333622",
+        messageCount: 2,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: 19,
+        availability: "si"
+    },
+    {
+        userId: 943,
+        username: "Sandra Rojas",
+        phone: "3044185607",
+        messageCount: 2,
+        firstMessage: "2025-01-02",
+        isRegistered: false,
+        age: 20,
+        availability: "si"
+    },
+    {
+        userId: 945,
+        username: "Edgar Leal",
+        phone: "3223578559",
+        messageCount: 2,
+        firstMessage: "2025-01-02",
+        isRegistered: false,
+        age: 20,
+        availability: "si"
+    },
+    {
+        userId: 947,
+        username: "Katerin Báez",
+        phone: "3024124448",
+        messageCount: 1,
+        firstMessage: "2025-01-02",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 948,
+        username: "Cristina Saavedra",
+        phone: "3163761013",
+        messageCount: 4,
+        firstMessage: "2025-01-02",
+        isRegistered: false,
+        age: 17,
+        availability: "si"
+    },
+    {
+        userId: 949,
+        username: "Juan Martínez",
+        phone: "3127464602",
+        messageCount: 4,
+        firstMessage: "2025-01-02",
+        isRegistered: false,
+        age: 17,
+        availability: "si"
+    },
+    {
+        userId: 950,
+        username: "Cristian leal",
+        phone: "3216519354",
+        messageCount: 4,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 27,
+        availability: "no"
+    },
+    {
+        userId: 951,
+        username: "Marco Fidel Martinez",
+        phone: "3168119751",
+        messageCount: 1,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 952,
+        username: "Joseph Martinez",
+        phone: "3168119751",
+        messageCount: 2,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 18,
+        availability: "si"
+    },
+    {
+        userId: 954,
+        username: "NICOLÁS ARRUBLA",
+        phone: "3138201960",
+        messageCount: 4,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 22,
+        availability: "si"
+    },
+    {
+        userId: 955,
+        username: "Jesus Arias",
+        phone: "3208683577",
+        messageCount: 9,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 30,
+        availability: "si"
+    },
+    {
+        userId: 956,
+        username: "Sandrith Carolina Páez Rincón",
+        phone: "3214154194",
+        messageCount: 13,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: 17,
+        availability: "si"
+    },
+    {
+        userId: 957,
+        username: "Cesar augusto cadena",
+        phone: "3174515191",
+        messageCount: 4,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 23,
+        availability: "si"
+    },
+    {
+        userId: 959,
+        username: "juan sebastian rodriguez jaimes",
+        phone: "3204751994",
+        messageCount: 9,
+        firstMessage: "2025-01-03",
+        isRegistered: false,
+        age: 25,
+        availability: "si"
+    },
+    {
+        userId: 962,
+        username: "Martha Castellanos",
+        phone: "3103313517",
+        messageCount: 2,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 964,
+        username: "Imanol Catalán",
+        phone: "3217737624",
+        messageCount: 7,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: 19,
+        availability: "si"
+    },
+    {
+        userId: 965,
+        username: "Juana mayorga",
+        phone: "3053530578",
+        messageCount: 1,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 966,
+        username: "Joshep Martinez García",
+        phone: "3168119751",
+        messageCount: 2,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: 18,
+        availability: "si"
+    },
+    {
+        userId: 968,
+        username: "Darlys Marín",
+        phone: "3173521485",
+        messageCount: 1,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 971,
+        username: "Fabian Gamboa",
+        phone: "3006045770",
+        messageCount: 1,
+        firstMessage: "2025-01-04",
+        isRegistered: false,
+        age: "-",
+        availability: "-"
+    },
+    {
+        userId: 973,
+        username: "Miguel Angel Moreno",
+        phone: "3138186523",
+        messageCount: 6,
+        firstMessage: "2025-01-05",
+        isRegistered: true,
+        age: 17,
+        availability: "si"
+    },
+    {
+        userId: 974,
+        username: "Diego Rojas",
+        phone: "3118790974",
+        messageCount: 2,
+        firstMessage: "2025-01-05",
+        isRegistered: false,
+        age: 33,
+        availability: "no"
+    },
+    {
+        userId: 976,
+        username: "Angel Márquez",
+        phone: "3503230150",
+        messageCount: 8,
+        firstMessage: "2025-01-06",
+        isRegistered: true,
+        age: 19,
+        availability: "si"
+    },
+    {
+        userId: 978,
+        username: "Nicolás Fernando Quintero Ardila",
+        phone: "3043138257",
+        messageCount: 3,
+        firstMessage: "2025-01-06",
+        isRegistered: false,
+        age: 26,
+        availability: "si"
+    }
     ]
   };
   
@@ -219,11 +515,23 @@ const BUCARAMANGA_DATA = {
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
+      },
+      {
+          date: "2025-01-03",
+          uniqueUsers: 1,
+          registeredUsers: 0,
+          conversionRate: 0
+      },
+      {
+          date: "2025-01-06",
+          uniqueUsers: 1,
+          registeredUsers: 0,
+          conversionRate: 0
       }
     ],
-    totalUsers: 10,
+    totalUsers: 13,
     registeredUsers: 4,
-    conversionRate: 40,
+    conversionRate: 30.76,
     userList: [
       {
         userId: 914,
@@ -324,6 +632,36 @@ const BUCARAMANGA_DATA = {
         isRegistered: false,
         age: "18",
         availability: "Si"
+      },
+      {
+          userId: 946,
+          username: "Nayeli Arciniegas",
+          phone: "3025829791",
+          messageCount: 2,
+          firstMessage: "2025-01-02",
+          isRegistered: false,
+          age: 22,
+          availability: "si"
+      },
+      {
+          userId: 961,
+          username: "Tomas Felipe Vega Soler",
+          phone: "3124714973",
+          messageCount: 2,
+          firstMessage: "2025-01-03",
+          isRegistered: false,
+          age: 18,
+          availability: "si"
+      },
+      {
+          userId: 977,
+          username: "Juan Arias",
+          phone: "3118926648",
+          messageCount: 3,
+          firstMessage: "2025-01-06",
+          isRegistered: false,
+          age: 27,
+          availability: "si"
       }
     ]
   };
@@ -331,11 +669,12 @@ const BUCARAMANGA_DATA = {
   const REPORT_DATA = {
       bucaramanga: BUCARAMANGA_DATA,
       bogota: BOGOTA_DATA,
-      globalCostPerUser: 11111 // 100000 / (5 + 4) registered users
+      globalCostPerUser: 10534
   };
 
 
 const ChatbotReport = () => {
+  
   return (
       <div className="container mx-auto px-4">
           <div className="h-32"></div>
@@ -348,7 +687,7 @@ const ChatbotReport = () => {
               />
           </div>
           
-          <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión Iza ChatBot 27 Dic - 02 Ene</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Informe de Conversión Iza ChatBot 27 Dic - 06 Ene</h1>
           
           <div className="bg-white p-4 rounded-lg shadow mb-8">
               <h2 className="text-xl font-semibold mb-2">Costo Global por Usuario Registrado</h2>
@@ -356,6 +695,8 @@ const ChatbotReport = () => {
                   ${REPORT_DATA.globalCostPerUser.toLocaleString('es-CO', { maximumFractionDigits: 0 })} COP
               </p>
           </div>
+
+          
 
           {['bucaramanga', 'bogota'].map(city => (
               <div key={city} className="mb-12">
