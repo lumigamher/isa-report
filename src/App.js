@@ -17,31 +17,31 @@ import {
 const BUCARAMANGA_DATA = {
     dailyStats: [
       {
-        date: "2023-12-27",
+        date: "2024-12-27",
         uniqueUsers: 4,
         registeredUsers: 2,
         conversionRate: 50
       },
       {
-        date: "2023-12-28",
+        date: "2024-12-28",
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
       },
       {
-        date: "2023-12-29",
+        date: "2024-12-29",
         uniqueUsers: 2,
         registeredUsers: 1,
         conversionRate: 50
       },
       {
-        date: "2023-12-30",
+        date: "2024-12-30",
         uniqueUsers: 2,
         registeredUsers: 0,
         conversionRate: 0
       },
       {
-        date: "2024-01-02",
+        date: "2025-01-02",
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
@@ -92,7 +92,7 @@ const BUCARAMANGA_DATA = {
         username: "Laura Garzón",
         phone: "3156064143",
         messageCount: 2,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: true,
         age: "-",
         availability: "-"
@@ -102,7 +102,7 @@ const BUCARAMANGA_DATA = {
         username: "Santiago Cubides",
         phone: "3228977277",
         messageCount: 3,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: false,
         age: "17",
         availability: "Si"
@@ -112,7 +112,7 @@ const BUCARAMANGA_DATA = {
         username: "Cristian Quiroga",
         phone: "3175543945",
         messageCount: 3,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: false,
         age: "-",
         availability: "-"
@@ -122,7 +122,7 @@ const BUCARAMANGA_DATA = {
         username: "Yulexy Paola Peralta Díaz",
         phone: "3118729908",
         messageCount: 4,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: true,
         age: "-",
         availability: "-"
@@ -132,7 +132,7 @@ const BUCARAMANGA_DATA = {
         username: "Carlos Mendoza",
         phone: "3186543210",
         messageCount: 2,
-        firstMessage: "2023-12-28",
+        firstMessage: "2024-12-28",
         isRegistered: false,
         age: "18",
         availability: "Si"
@@ -142,7 +142,7 @@ const BUCARAMANGA_DATA = {
         username: "Ana María Rios",
         phone: "3157654321",
         messageCount: 3,
-        firstMessage: "2023-12-28",
+        firstMessage: "2024-12-28",
         isRegistered: true,
         age: "17",
         availability: "Si"
@@ -152,7 +152,7 @@ const BUCARAMANGA_DATA = {
         username: "Daniel Suárez",
         phone: "3134567890",
         messageCount: 2,
-        firstMessage: "2023-12-28",
+        firstMessage: "2024-12-28",
         isRegistered: false,
         age: "19",
         availability: "Si"
@@ -162,7 +162,7 @@ const BUCARAMANGA_DATA = {
         username: "Sofia Martínez",
         phone: "3145678901",
         messageCount: 3,
-        firstMessage: "2023-12-29",
+        firstMessage: "2024-12-29",
         isRegistered: true,
         age: "18",
         availability: "Si"
@@ -172,7 +172,7 @@ const BUCARAMANGA_DATA = {
         username: "Luis Pérez",
         phone: "3167890123",
         messageCount: 2,
-        firstMessage: "2023-12-29",
+        firstMessage: "2024-12-29",
         isRegistered: false,
         age: "17",
         availability: "Si"
@@ -182,7 +182,7 @@ const BUCARAMANGA_DATA = {
         username: "María Torres",
         phone: "3178901234",
         messageCount: 2,
-        firstMessage: "2023-12-30",
+        firstMessage: "2024-12-30",
         isRegistered: false,
         age: "18",
         availability: "Si"
@@ -192,7 +192,7 @@ const BUCARAMANGA_DATA = {
         username: "Juan Ramírez",
         phone: "3189012345",
         messageCount: 2,
-        firstMessage: "2023-12-30",
+        firstMessage: "2024-12-30",
         isRegistered: false,
         age: "17",
         availability: "Si"
@@ -493,25 +493,25 @@ const BUCARAMANGA_DATA = {
   const BOGOTA_DATA = {
     dailyStats: [
       {
-        date: "2023-12-27",
+        date: "2024-12-27",
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
       },
       {
-        date: "2023-12-29",
+        date: "2024-12-29",
         uniqueUsers: 2,
         registeredUsers: 1,
         conversionRate: 50
       },
       {
-        date: "2023-12-30",
+        date: "2024-12-30",
         uniqueUsers: 2,
         registeredUsers: 1,
         conversionRate: 50
       },
       {
-        date: "2024-01-02",
+        date: "2025-01-02",
         uniqueUsers: 3,
         registeredUsers: 1,
         conversionRate: 33.33
@@ -538,7 +538,7 @@ const BUCARAMANGA_DATA = {
         username: "Juan Nuñez",
         phone: "3145514438",
         messageCount: 3,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: true,
         age: "17",
         availability: "Si"
@@ -548,7 +548,7 @@ const BUCARAMANGA_DATA = {
         username: "Andrea Morales",
         phone: "3156789012",
         messageCount: 4,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: false,
         age: "18",
         availability: "Si"
@@ -558,7 +558,7 @@ const BUCARAMANGA_DATA = {
         username: "Carlos Jiménez",
         phone: "3167890123",
         messageCount: 3,
-        firstMessage: "2023-12-27",
+        firstMessage: "2024-12-27",
         isRegistered: false,
         age: "19",
         availability: "Si"
@@ -568,7 +568,7 @@ const BUCARAMANGA_DATA = {
         username: "Laura Rodríguez",
         phone: "3178901234",
         messageCount: 2,
-        firstMessage: "2023-12-29",
+        firstMessage: "2024-12-29",
         isRegistered: true,
         age: "18",
         availability: "Si"
@@ -578,7 +578,7 @@ const BUCARAMANGA_DATA = {
         username: "Pedro Gómez",
         phone: "3189012345",
         messageCount: 3,
-        firstMessage: "2023-12-29",
+        firstMessage: "2024-12-29",
         isRegistered: false,
         age: "17",
         availability: "Si"
@@ -588,7 +588,7 @@ const BUCARAMANGA_DATA = {
         username: "Ana Sánchez",
         phone: "3190123456",
         messageCount: 2,
-        firstMessage: "2023-12-30",
+        firstMessage: "2024-12-30",
         isRegistered: true,
         age: "19",
         availability: "Si"
@@ -598,7 +598,7 @@ const BUCARAMANGA_DATA = {
         username: "Miguel Castro",
         phone: "3201234567",
         messageCount: 3,
-        firstMessage: "2023-12-30",
+        firstMessage: "2024-12-30",
         isRegistered: false,
         age: "18",
         availability: "Si"
